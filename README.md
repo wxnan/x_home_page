@@ -1,39 +1,31 @@
-# X主页
+# X主页 
 
-#### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
-
-#### 软件架构
-软件架构说明
+X主页 - 简洁的搜索导航
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+###  图片
 
 
-#### 码云特技
+## 来源    
+  
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+搜索栏取自 [SEOGO的钛导航](https://www.seogo.me/)
+
+菜单栏取自 [简单搜索](https://github.com/5iux/sou)  
+
+影视功能取自 [i5看视频](https://github.com/yumusb/I5Player) 
+
+源码取自闲渡搜索[闲渡搜索](https://xiandu.me/) 
+
+源码：https://github.com/xiandus/search
+
+## 修改内容
+
+增加天气挂件；
+
+改为随机壁纸；
+
+增加今日诗词；
+
+## 主要是拿来修改自用
+
