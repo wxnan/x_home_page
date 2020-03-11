@@ -1,3 +1,12 @@
+<?php
+require "common.php";
+
+if ($set['autokeywords'] == 1) {
+	$word = get_word();
+} else {
+	$word = "迪迦奥特曼";
+}
+?>
 
 <!DOCTYPE html>
 <html lang="zh-CN">
