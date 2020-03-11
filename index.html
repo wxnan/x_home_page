@@ -1,12 +1,4 @@
-<?php
-require "common.php";
 
-if ($set['autokeywords'] == 1) {
-	$word = get_word();
-} else {
-	$word = "迪迦奥特曼";
-}
-?>
 <!DOCTYPE html>
 <html lang="zh-CN">
  <head> 
@@ -167,7 +159,7 @@ if ($set['autokeywords'] == 1) {
      <ul class="search-type">
       <li><input onclick="bw()" checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下" /><label for="type-baidu"><span>百度</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌两下" /><label for="type-google"><span>Google</span></label></li>
-      <li><input onclick="bq()" hidden="" type="radio" name="type" id="yyss" value="https://www.xiandu.me/" data-placeholder="影视搜索" /><label for="yyss"><span>影视</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&amp;q=" data-placeholder="知乎搜索" /><label for="type-zhihu"><span>知乎</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-taobao" value="http://music.xiandu.me/?type=netease&amp;name=" data-placeholder="音乐搜索下载" /><label for="type-taobao"><span>音乐</span></label></li>
      </ul>
     </div>
@@ -220,11 +212,13 @@ if ($set['autokeywords'] == 1) {
     <button type="submit"><i class="iconfont icon-xdss"></i></button>
     <ul id="ul" class="ko"></ul>
    </form>
+   <!--
    <div id="yy" style="display:none;">
     <input type="text" id="kos" placeholder="<?php echo $word; ?>" />
     <button type="submit" id="kob"><i class="iconfont icon-xdss"></i></button>
     <ul id="kol" class="ko"></ul>
    </div>
+   -->
    <div class="set-check hidden-xs">
     <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off" />
    </div>
