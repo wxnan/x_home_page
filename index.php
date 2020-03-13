@@ -128,13 +128,13 @@ if ($set['autokeywords'] == 1) {
     <li><a rel="nofollow" href="https://www.egouz.com/" target="_blank"><i class="iconfont icon-fuzhilianjiexian-" style="color: #00bcff;"></i>  egouz</a></li>
     <!---->
     <li class="title"><i class="iconfont icon-fuzhilianjiexian-"></i> 友链</li>
-    <li><a rel="nofollow" href="http://bankexin.xiaopangkj.space/" target="_blank"><i class="iconfont icon-fuzhilianjiexian-" style="color: #00bcff;"></i>  博客</a></li>
+    <li><a rel="nofollow" href="http://wxn.is-best.net/" target="_blank"><i class="iconfont icon-fuzhilianjiexian-" style="color: #00bcff;"></i>  博客</a></li>
     <li><a rel="nofollow" href="https://gitee.com/wxnan" target="_blank"><i class="iconfont icon-fuzhilianjiexian-" style="color: #00bcff;"></i>  码云</a></li>
     <li><a rel="nofollow" href="https://github.com/xiandus/search" target="_blank"><i class="iconfont icon-fuzhilianjiexian-" style="color: #00bcff;"></i>  源码</a></li>
     <!---->
    </ul>  
     </div>
-
+    <!-- 天气 -->
     <div id="tp-weather-widget" class="mywth"></div>
   <script>
   (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
