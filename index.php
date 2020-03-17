@@ -207,7 +207,7 @@ if ($set['autokeywords'] == 1) {
     <div class="search-group group-e">
      <span class="type-text">生活</span>
      <ul class="search-type">
-      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-taobao1" value="http://t.xiandu.me/index.php?input=2&amp;r=l&amp;kw=" data-placeholder="淘宝优惠券" /><label for="type-taobao1"><span>优惠券</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-taobao1" value="http://huimai.gouwu.rocks/?action=search&q=" data-placeholder="淘宝优惠券" /><label for="type-taobao1"><span>优惠券</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-快递100" value="http://www.kuaidi100.com/?" data-placeholder="快递100" /><label for="type-快递100"><span>快递100</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiachufang" value="http://www.xiachufang.com/search/?keyword=" data-placeholder="下厨房" /><label for="type-xiachufang"><span>下厨房</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&amp;s=" data-placeholder="香哈菜谱" /><label for="type-xiangha"><span>香哈菜谱</span></label></li>
