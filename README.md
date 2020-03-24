@@ -14,9 +14,7 @@ X主页 - 简洁的搜索导航
 
 影视功能取自 [i5看视频](https://github.com/yumusb/I5Player) 
 
-源码取自[闲渡搜索](https://xiandu.me/) 
-
-源码：https://github.com/xiandus/search
+源码取自[闲渡搜索](https://github.com/xiandus/search) 
 
 ## 修改内容
 
@@ -26,5 +24,7 @@ X主页 - 简洁的搜索导航
 
 增加今日诗词；
 
-## 主要是拿来修改自用
+。。。
+
+主要是拿来修改自用。
 
