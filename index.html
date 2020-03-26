@@ -139,7 +139,8 @@ if ($set['autokeywords'] == 1) {
     <!---->
    </ul>  
     </div>
-
+    <!--心知天气-->
+    <!--
     <div id="tp-weather-widget" class="mywth"></div>
   <script>
   (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
@@ -155,6 +156,35 @@ if ($set['autokeywords'] == 1) {
     container: "tp-weather-widget"
   })
   </script>
+  -->
+  <!--和风天气-->
+  <div id="he-plugin-simple"></div>
+<script>
+WIDGET = {
+  CONFIG: {
+    "modules": "01234",
+    "background": 1,
+    "tmpColor": "FFFFFF",
+    "tmpSize": 16,
+    "cityColor": "FFFFFF",
+    "citySize": 16,
+    "aqiSize": 16,
+    "weatherIconSize": 24,
+    "alertIconSize": 18,
+    "padding": "10px 10px 10px 10px",
+    "shadow": "1",
+    "language": "auto",
+    "borderRadius": 5,
+    "fixed": "true",
+    "vertical": "middle",
+    "horizontal": "center",
+    "left": 10,
+    "top": 10,
+    "key": "747d5e3402c3435c897729053ade939a"
+  }
+}
+</script>
+<script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
 
   <div id="search" class="s-search">
    <div id="search-list" class="hide-type-list">
@@ -162,9 +192,9 @@ if ($set['autokeywords'] == 1) {
      <span></span>
      <div class="s-type-list animated fadeInUp">
       <label for="type-baidu">常用</label>
-      <label for="type-search">搜索</label>
+      <label for="type-bing">搜索</label>
       <label for="type-br">工具</label>
-      <label for="type-weibo">社区</label>
+      <label for="type-wechat">社区</label>
       <label for="type-快递100">生活</label>
      </div>
      </div>
@@ -174,16 +204,15 @@ if ($set['autokeywords'] == 1) {
       <li><input onclick="bw()" checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下" /><label for="type-baidu"><span>百度</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌两下" /><label for="type-google"><span>Google</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&amp;q=" data-placeholder="知乎" /><label for="type-zhihu"><span>知乎</span></label></li>
-      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-taobao1" value="https://gouwu.5ai.pp.ua/index.php?r=l&kw=" data-placeholder="淘宝优惠券" /><label for="type-taobao1"><span>优惠券</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-taobao" value="https://gouwu.5ai.pp.ua/index.php?r=l&kw=" data-placeholder="淘宝优惠券" /><label for="type-taobao"><span>优惠券</span></label></li>
      </ul>
     </div>
     <div class="search-group group-b">
      <span class="type-text">搜索</span>
      <ul class="search-type">
-      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-search" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下" /><label for="type-search"><span>百度</span></label></li>
-      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌两下" /><label for="type-google"><span>Google</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="Bing搜索" /><label for="type-bing"><span>Bing</span></label></li>
-      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-sm" value="https://yandex.com/search/?text=" data-placeholder="Yandex搜索" /><label for="type-sm"><span>yandex</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-yandex" value="https://yandex.com/search/?text=" data-placeholder="Yandex搜索" /><label for="type-yandex"><span>yandex</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-miji" value="https://mijisou.com/?q=" data-placeholder="秘迹搜索" /><label for="type-miji"><span>秘迹</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360好搜" /><label for="type-360"><span>360</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索" /><label for="type-sogo"><span>搜狗</span></label></li>
      </ul>
@@ -202,7 +231,6 @@ if ($set['autokeywords'] == 1) {
     <div class="search-group group-d">
      <span class="type-text">社区</span>
      <ul class="search-type">
-      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&amp;q=" data-placeholder="知乎" /><label for="type-zhihu"><span>知乎</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-wechat" value="http://weixin.sogou.com/weixin?type=2&amp;query=" data-placeholder="微信" /><label for="type-wechat"><span>微信</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-weibo" value="http://s.weibo.com/weibo/" data-placeholder="微博" /><label for="type-weibo"><span>微博</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣" /><label for="type-douban"><span>豆瓣</span></label></li>
@@ -212,7 +240,6 @@ if ($set['autokeywords'] == 1) {
     <div class="search-group group-e">
      <span class="type-text">生活</span>
      <ul class="search-type">
-      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-taobao1" value="http://huimai.gouwu.rocks/?action=search&q=" data-placeholder="淘宝优惠券" /><label for="type-taobao1"><span>优惠券</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-快递100" value="http://www.kuaidi100.com/?" data-placeholder="快递100" /><label for="type-快递100"><span>快递100</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiachufang" value="http://www.xiachufang.com/search/?keyword=" data-placeholder="下厨房" /><label for="type-xiachufang"><span>下厨房</span></label></li>
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&amp;s=" data-placeholder="香哈菜谱" /><label for="type-xiangha"><span>香哈菜谱</span></label></li>
