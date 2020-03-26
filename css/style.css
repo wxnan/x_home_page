@@ -245,10 +245,15 @@ a {
 }
 
 .mywth {
+    width: 150px;
     position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: 100000;
+    left: 15px;
+    top: 15px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 @media (max-width: 640px) {
@@ -280,4 +285,14 @@ width: 35%;
 .ssln:hover{
             background: #f2f2f2;
         }
-
+.mywth {
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
