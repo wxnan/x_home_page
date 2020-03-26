@@ -4,7 +4,7 @@ X主页 - 简洁的搜索导航
 
 ## 图片
 
-预览[X主页](http://wxn.um5.net/) 
+预览[X主页](https://wxnan.gitee.io/x_home_page/) 
 
 ## 来源    
   
