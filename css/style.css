@@ -30,9 +30,9 @@ body {
     background-color: #1685a9;
     width:100%;
     height:100%;
-	background-image: url(http://www.5ai.pp.ua/api/bizhi.php);
+	background-image: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302);
     /*https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
-    https://picsum.photos/seed/picsum/1920/1080
+    http://www.5ai.pp.ua/api/bizhi.php
     https://source.unsplash.com/1920x1080/?nature,water
     https://api.dujin.org/bing/1920.php
     https://api.ixiaowai.cn/gqapi/gqapi.php
@@ -275,7 +275,7 @@ a {
         right: 270px;
     }
 .bgo{
-    	background-image: url(http://www.5ai.pp.ua/api/sjbizhi.php);
+    	background-image: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&device=mobile);
         /*http://xzhuye.is-best.net/api/sjbizhi.php*/
         /*https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&device=mobile*/
         background-size: cover;
