@@ -56,7 +56,7 @@ if ($set['autokeywords'] == 1) {
     <li><a rel="nofollow" href="https://www.pdfpai.com/" target="_blank"><i class="iconfont icon-pdf1" style="color: #00bcff;"></i>PDF派</a></li>  
     <li><a rel="nofollow" href="https://www.materialtools.com/" target="_blank"><i class="iconfont icon-sms" style="color: #00bcff;"></i>云短信</a></li> 
     <li><a rel="nofollow" href="http://www.linshiyouxiang.net/" target="_blank"><i class="iconfont icon-youxiang" style="color: #00bcff;"></i>临时邮箱</a></li> 
-    <li><a rel="nofollow" href="http://sina.lt/" target="_blank"><i class="iconfont icon-duan" style="color: #00bcff;"></i>短网址</a></li>
+    <li><a rel="nofollow" href="https://search.chongbuluo.com/" target="_blank"><i class="iconfont icon-sousuo" style="color:#00bcff;"></i>快搜</a></li>
     <li><a rel="nofollow" href="https://cp.anyknew.com/" target="_blank"><i class="iconfont icon-tuzi" style="color: #00bcff;"></i>拷贝兔</a></li>
     <!----> 
     <li class="title"><i class="iconfont icon-shenghuo"></i> 生活</li> 
@@ -148,8 +148,8 @@ if ($set['autokeywords'] == 1) {
     <li><a rel="nofollow" href="http://cubic-bezier.com" target="_blank"><i class="iconfont icon-quxian" style="color: #00bcff;"></i>贝赛尔曲线</a></li> 
     <li><a rel="nofollow" href="https://javascriptobfuscator.com/Javascript-Obfuscator.aspx" target="_blank"><i class="iconfont icon-js" style="color: #00bcff;"></i>JS混淆器</a></li> 
     <li><a rel="nofollow" href="https://ping.pe" target="_blank"><i class="iconfont icon-wangluo" style="color:#00bcff;"></i>Ping.pe</a></li> 
-    <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><i class="iconfont icon-ping" style="color:#00bcff;"></i>站长Ping</a></li> 
-    <li><a rel="nofollow" href="https://search.chongbuluo.com/" target="_blank"><i class="iconfont icon-sousuo" style="color:#00bcff;"></i>快搜</a></li>
+    <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><i class="iconfont icon-ping" style="color:#00bcff;"></i>站长Ping</a></li>
+    <li><a rel="nofollow" href="http://sina.lt/" target="_blank"><i class="iconfont icon-duan" style="color: #00bcff;"></i>短网址</a></li> 
     <li><a rel="nofollow" href="https://www.superbed.cn/" target="_blank"><i class="iconfont icon-tupian2" style="color:#00bcff;"></i>聚合图床</a></li>
     <li><a rel="nofollow" href="https://convertio.co/zh/" target="_blank"><i class="iconfont icon-zhuanhuan" style="color:#00bcff;"></i>转换</a></li>
     <li><a rel="nofollow" href="https://www.remove.bg/zh" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>remove</a></li>
@@ -228,6 +228,7 @@ WIDGET = {
      <div class="s-type-list animated fadeInUp">
       <label for="type-baidu">常用</label>
       <label for="type-bing">搜索</label>
+      <label for="type-scholar">学术</label>
       <label for="type-br">工具</label>
       <label for="type-wechat">社区</label>
       <label for="type-快递100">生活</label>
@@ -253,6 +254,16 @@ WIDGET = {
      </ul>
     </div>
     <div class="search-group group-c">
+     <span class="type-text">学习</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-baiduxueshu" value="https://xueshu.baidu.com/s?wd=" data-placeholder="百度学术" /><label for="type-baiduxueshu"><span>百度学术</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-googlescholar" value="https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=" data-placeholder="谷歌学术" /><label for="type-googlescholar"><span>谷歌学术</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-Zlibrary" value="https://b-ok.global/s/?q=" data-placeholder="Zlibrary" /><label for="type-Zlibrary"><span>Zlibrary</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-github" value="https://github.com/search?q=" data-placeholder="github" /><label for="type-github"><span>github</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-CSDN" value="https://so.csdn.net/so/search/s.do?q=" data-placeholder="CSDN" /><label for="type-CSDN"><span>CSDN</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-d">
      <span class="type-text">工具</span>
      <ul class="search-type">
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-br" value="http://rank.chinaz.com/all/" data-placeholder="请输入网址(不带http://)" /><label for="type-br"><span>权重查询</span></label></li>
@@ -263,7 +274,7 @@ WIDGET = {
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-ciku" value="http://www.ciku5.com/s?wd=" data-placeholder="请输入关键词" /><label for="type-ciku"><span>关键词挖掘</span></label></li>
      </ul>
     </div>
-    <div class="search-group group-d">
+    <div class="search-group group-e">
      <span class="type-text">社区</span>
      <ul class="search-type">
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-wechat" value="http://weixin.sogou.com/weixin?type=2&amp;query=" data-placeholder="微信" /><label for="type-wechat"><span>微信</span></label></li>
@@ -272,7 +283,7 @@ WIDGET = {
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-why" value="https://ask.seowhy.com/search/?q=" data-placeholder="SEO问答社区" /><label for="type-why"><span>搜外问答</span></label></li>
      </ul>
     </div>
-    <div class="search-group group-e">
+    <div class="search-group group-f">
      <span class="type-text">生活</span>
      <ul class="search-type">
       <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-快递100" value="http://www.kuaidi100.com/?" data-placeholder="快递100" /><label for="type-快递100"><span>快递100</span></label></li>
