@@ -244,10 +244,10 @@ a {
 .logo{
     position: absolute;
     z-index: 99;
-    top: 93%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
+    width: 150px;
     opacity: 0.9;
 }
 
