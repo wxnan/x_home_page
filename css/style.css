@@ -252,12 +252,12 @@ a {
 }
 
 .mywth {
-    width: 150px;
+    width: 320px;
     position: absolute;
     left: 15px;
     top: 15px;
     font-size: 12px;
-    height: 20px;
+    height: 200px;
     line-height: 20px;
     cursor: pointer;
     z-index: 1000;
